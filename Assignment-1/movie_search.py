@@ -2,13 +2,12 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# Load dataset
+
 df = pd.read_csv("movies.csv")
 
-# Load model
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# Encode embeddings
+
 df["embeddings"] = df["plot"].apply(lambda x: model.encode(x))
 
 def search_movies(query, top_n=5):

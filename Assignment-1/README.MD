@@ -1,6 +1,6 @@
-# 📘 Assignment-1: Semantic Search on Movie Plots
+#  Assignment-1: Semantic Search on Movie Plots
 
-## 👤 Student Details
+##  Student Details
 - **Name:** Khushdeep Singh  
 - **Branch:** DSAI (Data Science and Artificial Intelligence)  
 - **Year:** 4th Year  
@@ -8,7 +8,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 In this assignment, I built a **Semantic Search Engine for Movie Plots** using the **SentenceTransformers (all-MiniLM-L6-v2)** model.  
 
 The workflow included:
@@ -20,7 +20,7 @@ The workflow included:
 
 ---
 
-## 🛠️ Setup & Running Instructions
+##  Setup & Running Instructions
 
 ### 1. Clone Repository
 ```bash
@@ -62,7 +62,7 @@ Open a terminal in the project folder and run the following command:
 python -m unittest tests/test_movie_search.py -v
 ```
 
-### 🖼️ Results & Screenshots
+###  Results & Screenshots
 
 **Notebook Query Results** (e.g., running the query "spy thriller in Paris").
 
