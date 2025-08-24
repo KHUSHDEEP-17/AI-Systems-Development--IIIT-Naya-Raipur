@@ -24,8 +24,8 @@ The workflow included:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/KHUSHDEEP-17/movie-search-assignment.git
-cd movie-search-assignment
+git clone https://github.com/KHUSHDEEP-17/AI-Systems-Development--IIIT-Naya-Raipur.git
+cd Assignment-1
 ```
 ### 2. Create Virtual Environment
 ```
